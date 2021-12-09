@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color:#454845;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.button {
+  background-color: rgba(220,220,235,0.5);
+  cursor: pointer;
+  border-radius: 9px;
+  transition: all ease 0.3s;
+
+  &:hover {
+    background-color: rgba(220,220,235,0.7);
+    transition: all ease 0.3s;
+  }
+}
+
+.button, .output {
+  padding: 1rem;
+}
