@@ -10,6 +10,7 @@ function generate() {
 
   document.getElementsByClassName("container")[0].style.backgroundColor = newColor;
   document.getElementsByClassName("output")[0].innerHTML = newColor;
+  document.getElementsByClassName("button")[0].style.color = newColor;
 }
 
 generate();
